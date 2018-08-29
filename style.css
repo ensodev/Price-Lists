@@ -1,0 +1,135 @@
+html, body{
+    margin: 0px 0px;
+    padding: 0px;
+    background-color: white;
+    text-align: center;
+}
+
+/*.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 50px; 
+
+    grid-template-areas: 
+
+    " first-list second-list last-list"
+
+} 
+
+*/
+
+div{
+    margin: 20px;
+}
+
+#first-list{
+    grid-area: first-list;
+}
+
+#second-list{
+    grid-area: second-list;
+}
+
+#last-list{
+    grid-area: last-list;
+}
+
+
+.list ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    padding: 50px 0px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+}
+
+.head{
+    background-color: forestgreen;
+    font-family: 'sans-serif,', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: goldenrod;
+
+}
+
+.list ul li{
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+    border-bottom: 1px solid gray;
+
+}
+
+
+#list-items{
+
+    background-color: darkgrey;
+
+}
+#price-list{
+   
+    color: green;
+    font-family: 'sans-serif,', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-weight: bold;
+}
+
+ul li#purchase{
+    background-color: black;
+    color: green;
+    font-family: 'sans-serif,', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+ul li#purchase a{
+    background-color: green;
+    color: black;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 15px;
+
+}
+
+ul li#purchase a:hover{
+    background-color: greenyellow;
+}
+
+.list:hover {
+    box-shadow: 0 10px 15px 0 #000;
+}
+
+.second-list{
+    box-shadow: 0 10px 15px 0 #000;
+}
+
+@media (min-width:700px){
+
+    html, body{
+        margin: 0px 50px;
+        padding: 0px;
+        background-color: white;
+        text-align: center;
+    }
+    
+    
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 50px; 
+    
+        grid-template-areas: 
+    
+        " first-list second-list last-list"
+    } 
+
+}
+
